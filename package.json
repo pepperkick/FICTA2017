@@ -1,0 +1,19 @@
+{
+  "name": "conf_page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "PepperKick",
+  "license": "ISC",
+  "devDependencies": {
+    "bower-webpack-plugin": "^0.1.9",
+    "gulp": "^3.9.1",
+    "gulp-minifier": "^0.2.1",
+    "gulp-pug": "^3.2.0",
+    "gulp-webpack": "^1.5.0",
+    "webpack": "^2.2.1"
+  }
+}

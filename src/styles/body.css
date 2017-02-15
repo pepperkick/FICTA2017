@@ -1,0 +1,33 @@
+body {
+    background: #E0E0E0;  
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+#home-grid {
+    margin-top: 16px;
+}
+
+#home-card {
+    width: 100%;
+}
+
+.mdl-card {
+    height: 520px;
+}
+
+.mdl-card__actions {
+    position: absolute;
+    bottom: 0;
+}
+
+footer {
+    position: absolute;
+    text-align: center;
+    color: #ffffff;
+    width: 100%;
+    padding-bottom: 16px;
+    padding-top: 4px;
+    font-size: 12px;
+    z-index: 10;
+}

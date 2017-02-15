@@ -1,0 +1,24 @@
+html
+  head
+    title KIIT
+    link(rel='stylesheet', href='https://fonts.googleapis.com/icon?family=Material+Icons')
+    link(rel='stylesheet', href='https://code.getmdl.io/1.3.0/material.indigo-pink.min.css')
+    link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700' type="text/css")
+    script(src='https://code.getmdl.io/1.3.0/material.min.js')   
+    style 
+      include styles/body.css
+      include styles/navigation.css
+      include styles/navigation.css
+  body#body
+    include components/navigation.pug
+    #home-grid.content-grid.mdl-grid
+      #home-card.mdl-cell(style="margin-top: 0px;")
+        include components/home/header.pug
+    .content-grid.mdl-grid
+      .content-card.mdl-cell
+        include components/home/about.pug
+      .content-card.mdl-cell
+        include components/home/publications.pug
+      .content-card.mdl-cell
+        include components/home/paper-publish.pug
+    footer © Copyright SCA 2017. All Rights Reserved

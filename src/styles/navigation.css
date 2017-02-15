@@ -1,0 +1,24 @@
+.layout-transparent {
+    background: url("./assets/header-background.jpg") center / cover;
+    position: fixed;
+    top: 0; left: 0;
+}
+
+.layout-transparent .mdl-layout__header,
+.layout-transparent .mdl-layout__drawer-button {
+    color: white;
+}
+
+.mdl-layout__header-row {
+    background: #4CAF50;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.mdl-layout__header-row
+.mdl-navigation__link {
+    text-transform: uppercase;
+    font-weight: bold;
+}
