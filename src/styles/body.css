@@ -3,23 +3,17 @@ body {
     overflow-x: auto;
     overflow-y: auto;
 }
-
-#home-grid {
-    margin-top: 16px;
-}
-
-#home-card {
-    width: 100%;
-}
-
 .mdl-card {
-    height: 520px;
+    height: 500px;
+    width: 100%;
 }
 
 .mdl-card__actions {
     position: absolute;
     bottom: 0;
 }
+
+a { cursor: pointer; }
 
 footer {
     position: absolute;
