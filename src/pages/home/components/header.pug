@@ -6,6 +6,9 @@
     div#header-bottomleft
         span#header-bottomleft-text 
             include ../texts/organised.html
+    div#header-bottomcenter
+        form(action='https://easychair.org/conferences/?conf=ficta2017' method='post')
+            button.mdl-button.mdl-js-button.mdl-button--raised.mdl-button--colored(type='submit') Submit Paper
     div#header-events
         h4#header-text 
             include ../texts/events.html

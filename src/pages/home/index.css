@@ -45,6 +45,11 @@
     height: 80px;
 }
 
+#header-bottomcenter {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+}
+
 #header-bottomleft {
     position: absolute;
     bottom: 0; left: 16px;

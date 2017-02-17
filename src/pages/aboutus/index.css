@@ -3,11 +3,3 @@
     background: url("../../assets/card-headers/kiit.jpg") center / cover #46B6AC;
 }
 
-#about-sca-header {
-    color: #fff;
-    background: url("../../assets/card-headers/sca.jpg") center / cover #46B6AC;
-}
-
-#about-grid {
-    margin-top: 16px;
-}
