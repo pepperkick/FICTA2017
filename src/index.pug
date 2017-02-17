@@ -1,6 +1,7 @@
 html
   head
-    title KIIT
+    title FICTA 2017
+    meta(name="viewport" content="width=device-width, initial-scale=0.8, minimum-scale=0.8")
     link(rel='stylesheet', href='https://fonts.googleapis.com/icon?family=Material+Icons')
     link(rel='stylesheet', href='https://code.getmdl.io/1.3.0/material.indigo-pink.min.css')
     link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700' type="text/css")
@@ -18,6 +19,8 @@ html
       include pages/aboutus/index.pug
     div#page_committee.page 
       include pages/committee/index.pug
+    div#page_commingsoon.page 
+      include pages/commingsoon/index.pug
     footer © Copyright SCA 2017. All Rights Reserved
     script.
       $(".page").hide();
