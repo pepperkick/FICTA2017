@@ -1,6 +1,6 @@
-.layout-transparent {
-    background: url("./assets/header-background.jpg") center / cover;
+.mdl-layout__drawer {
     position: fixed;
+    z-index: 12;
     top: 0; left: 0;
 }
 

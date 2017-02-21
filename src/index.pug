@@ -12,7 +12,9 @@ html
       include styles/navigation.css
       include styles/navigation.css
   body
-    include components/navigation.pug
+    div#background
+    div#navigation-normal
+      include components/navigation.pug
     div#page_home.page 
       include pages/home/index.pug
     div#page_aboutus.page 
@@ -31,3 +33,12 @@ html
     script.
       $(".page").hide();
       $("#page_home").show();
+      $(window).resize(() => {
+        if($(window).width() < 960) {
+          $("[id ^= normal]").hide();
+          $("[id ^= lowres]").show();
+        } else {
+          $("[id ^= normal]").show();
+          $("[id ^= lowres]").hide();
+        }
+      })
