@@ -12,8 +12,9 @@
 #header-title {
     font-size: 82px;
     font-weight: bolder;
+    line-height: 68px;
     color: #ffffff;
-    margin-top: 120px;
+    margin-top: 90px;
 }
 
 #header-text {
@@ -24,7 +25,7 @@
 #header-support {
     font-weight: 100;
     font-size: 16px;
-    margin-top: -16px;
+    margin-top: -24px;
     line-height: 20px;
     text-align: center;
     opacity: 0.75;
