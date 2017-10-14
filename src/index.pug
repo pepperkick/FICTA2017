@@ -2,53 +2,43 @@ html
   head
     title FICTA 2017
     meta(name="viewport" content="width=device-width, initial-scale=0.8, minimum-scale=0.8")
-    link(rel='stylesheet', href='https://fonts.googleapis.com/icon?family=Material+Icons')
-    link(rel='stylesheet', href='https://code.getmdl.io/1.3.0/material.deep_orange-pink.min.css')
-    link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700' type="text/css")
-    script(src='https://code.getmdl.io/1.3.0/material.min.js')   
-    script(src='https://code.jquery.com/jquery-3.1.1.min.js')   
-    style 
+    link(rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons')
+    link(rel='stylesheet' href='https://code.getmdl.io/1.3.0/material.deep_orange-pink.min.css')
+    link(rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700' type="text/css")
+    script(src='https://code.getmdl.io/1.3.0/material.min.js')
+    script(src='https://code.jquery.com/jquery-3.1.1.min.js')
+    style
       include styles/body.css
       include styles/navigation.css
       include styles/navigation.css
   body
-    div#background
-    div#navigation-normal
+    #background
+    #navigation-normal
       include components/navigation.pug
-    div#page_home.page 
+    #page_home.page
       include pages/home/index.pug
-    div#page_aboutus.page 
+    #page_aboutus.page
       include pages/aboutus/index.pug
-    div#page_committee.page 
+    #page_committee.page
       include pages/committee/index.pug
-    div#page_submission.page 
+    #page_submission.page
       include pages/submission/index.pug
-    div#page_speakers.page 
+    #page_speakers.page
       include pages/speakers/index.pug
-    div#page_downloads.page 
+    #page_downloads.page
       include pages/downloads/index.pug
-    div#page_schedule.page 
+    #page_schedule.page
       include pages/schedule/index.pug
-    div#page_contactus.page 
+    #page_contactus.page
       include pages/contactus/index.pug
-    div#page_registration.page 
+    #page_registration.page
       include pages/registration/index.pug
-    div#page_sessions_special.page 
+    #page_sessions_special.page
       include pages/specialsessions/index.pug
-    div#page_commingsoon.page 
+    #page_commingsoon.page
       include pages/commingsoon/index.pug
-    div#page_abstract_udgata.page 
+    #page_abstract_udgata.page
       include pages/abstract-udgata/index.pug
     footer Copyright SCA 2017. All Rights Reserved
-    script.
-      $(".page").hide();
-      $("#page_home").show();
-      $(window).resize(() => {
-        if($(window).width() < 960) {
-          $("[id ^= normal]").hide();
-          $("[id ^= lowres]").show();
-        } else {
-          $("[id ^= normal]").show();
-          $("[id ^= lowres]").hide();
-        }
-      })
+    script
+      include index.js

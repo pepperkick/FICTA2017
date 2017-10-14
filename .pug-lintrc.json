@@ -1,0 +1,22 @@
+{
+    "disallowClassAttributeWithStaticValue": true,
+    "disallowIdAttributeWithStaticValue": true,
+    "disallowMultipleLineBreaks": true,
+    "disallowLegacyMixinCall": true,
+    "disallowSpaceAfterCodeOperator": true,
+    "disallowSpacesInsideAttributeBrackets": true,
+    "disallowTrailingSpaces": true,
+    "disallowHtmlText": true,
+    "validateDivTags": true,
+    "validateExtensions": true,
+    "validateIndentation": 4,
+    "validateAttributeSeparator": {
+        "separator": " ",
+        "multiLineSeparator": "\n  "
+    },
+    "validateTemplateString": [
+        "variable",
+        "string",
+        "concatenation"
+    ]
+}
