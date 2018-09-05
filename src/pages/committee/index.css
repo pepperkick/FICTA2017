@@ -1,9 +1,11 @@
 #commiittee-grid {
-    height: 1000px;
+    height: 1128px;
     margin-top: 8px;
+    margin-bottom: 32px;
 }
 
 .committee-card {
     height: 100%;
     width: 100%;
+    margin-bottom: 32px;
 }

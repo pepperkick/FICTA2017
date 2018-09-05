@@ -1,4 +1,4 @@
-# FICTA 2017
+# SCI 2018
 
 Front end conference page
 

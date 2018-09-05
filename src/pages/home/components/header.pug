@@ -1,16 +1,16 @@
 #home-card.mdl-card
-    h2#header-title FICTA 2017
-    h4#header-support 6th International Conference on <br>Frontiers of Intelligent Computing: Theory and applications (FICTA)
-    h4
-        marquee(style="color:red") The venue for FICTA 2017 has shifted from Campus 3 to Campus 6, Convention Center.
-    img#header-topleft(src="assets/logo_springer.png")
-    img#header-bottomright(src="assets/logo_kiit.png")
-    div#header-bottomleft
-        span#header-bottomleft-text 
-            include ../texts/organised.html
-    div#header-bottomcenter
-        form(action='https://easychair.org/conferences/?conf=ficta2017' method='post')
-            button.mdl-button.mdl-js-button.mdl-button--raised.mdl-button--colored(type='submit') Submit Paper
-    div#header-events
-        h4#header-text 
-            include ../texts/events.html
+    .content-grid.mdl-grid
+        img#header-topleft-desktop.mdl-cell--hide-tablet.mdl-cell--hide-phone(src="assets/logo_springer.png")
+        //- img#header-topleft.mdl-cell--12-col-tablet.mdl-cell--12-col-phone.mdl-cell--middle.mdl-cell--hide-desktop(src="assets/logo_springer.png")
+        h2#header-title.mdl-cell--12-col SCI
+        h4#header-support.mdl-cell--12-col 3rd International Conference on <br>Smart Computing & Informatics (SCI)
+        div#header-events.mdl-cell--12-col
+            h4#header-text 
+                include ../texts/events.html
+        img#header-bottomright(src="assets/logo_kiit.png")
+        img#header-bottomleft-logo.mdl-cell--hide-desktop(src="assets/logo_springer.png")
+        div#header-bottomleft.mdl-cell--hide-tablet.mdl-cell--hide-phone
+            span#header-bottomleft-text.mdl-cell--12-col-phone
+                include ../texts/organised.html
+        div#header-bottomcenter
+            button.mdl-button.mdl-js-button.mdl-button--raised.mdl-button--colored(onclick='return page_nav("paper")') Submit Paper

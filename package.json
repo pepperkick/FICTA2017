@@ -16,6 +16,10 @@
     "gulp-pug-lint": "^0.1.6",
     "gulp-scp2": "^0.2.0",
     "gulp-webpack": "^1.5.0",
+    "nodemon": "^1.17.5",
     "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "http-server": "^0.11.1"
   }
 }

@@ -35,9 +35,15 @@
 }
 
 #header-topleft {
+    height: 196px;
+    object-fit: cover;
+}
+
+#header-topleft-desktop {
     position: absolute;
     top: -60px; left: 0;
     height: 196px;
+    object-fit: cover;
 }
 
 #header-bottomright {
@@ -56,4 +62,11 @@
     bottom: 0; left: 16px;
     text-align: left;
     color: #ffffff;
+}
+
+#header-bottomleft-logo {
+    position: absolute;
+    bottom: -36px; left: 0;
+    height: 152px;
+    object-fit: cover;
 }
